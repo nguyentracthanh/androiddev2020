@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout"
+    android:layout_margin="10sp"
+    tools:context=".ForecastFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:orientation="horizontal"
+            android:padding="4sp">
+
+<!--            <View-->
+<!--                android:layout_height="0px"-->
+<!--                android:layout_width="0px"-->
+<!--                android:layout_marginStart="15dp"-->
+<!--                />-->
+
+            <TextView
+                android:id="@+id/text1"
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginStart="15dp"
+                android:paddingLeft="8sp"
+                android:paddingRight="8sp"
+                android:text="@string/monday" />
+
+<!--            <View-->
+<!--                android:layout_width="0px"-->
+<!--                android:layout_height="0px"-->
+<!--                android:layout_marginStart="35dp" />-->
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="72dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/cloudy" />
+
+<!--            <View-->
+<!--                android:layout_width="0px"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginStart="55dp"-->
+<!--                android:background="@drawable/divider" />-->
+
+            <TextView
+                android:id="@+id/item2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginStart="55dp"
+                android:paddingLeft="8sp"
+                android:paddingRight="8sp"
+                android:text="@string/detail_img1" />
+
+<!--            <View-->
+<!--                android:layout_width="0px"-->
+<!--                android:layout_height="1px"-->
+<!--                android:layout_weight="1" />-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container2"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:orientation="horizontal"
+            android:padding="4sp">
+
+<!--            <View-->
+<!--                android:layout_height="1px"-->
+<!--                android:layout_width="1px"-->
+<!--                android:layout_marginStart="15dp"-->
+<!--                />-->
+
+            <TextView
+                android:id="@+id/text3"
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="8sp"
+                android:layout_marginStart="15dp"
+                android:paddingRight="8sp"
+                android:text="@string/tuesday" />
+
+<!--            <View-->
+<!--                android:layout_width="0px"-->
+<!--                android:layout_height="0px"-->
+<!--                android:layout_marginStart="35dp" />-->
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="71dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/sun" />
+
+<!--            <View-->
+<!--                android:layout_width="1px"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginStart="55dp"-->
+<!--                android:background="@drawable/divider" />-->
+
+            <TextView
+                android:id="@+id/item4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="55dp"
+                android:gravity="center"
+                android:paddingLeft="8sp"
+                android:paddingRight="8sp"
+                android:text="@string/detail_img2" />
+
+<!--            <View-->
+<!--                android:layout_width="0px"-->
+<!--                android:layout_height="1px"-->
+<!--                android:layout_weight="1" />-->
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/container3"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:orientation="horizontal"
+            android:padding="4sp">
+
+<!--            <View-->
+<!--                android:layout_height="1px"-->
+<!--                android:layout_width="1px"-->
+<!--                android:layout_marginStart="15dp"-->
+<!--                />-->
+
+            <TextView
+                android:id="@+id/text5"
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="8sp"
+                android:paddingRight="8sp"
+                android:layout_marginStart="15dp"
+                android:text="@string/wednesday" />
+
+<!--            <View-->
+<!--                android:layout_width="0px"-->
+<!--                android:layout_height="0px"-->
+<!--                android:layout_marginStart="35dp" />-->
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="51dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/rain" />
+
+<!--            <View-->
+<!--                android:layout_width="1px"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginStart="55dp"-->
+<!--                android:background="@drawable/divider" />-->
+
+            <TextView
+                android:id="@+id/item6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="55dp"
+                android:gravity="center"
+                android:paddingLeft="8sp"
+                android:paddingRight="8sp"
+                android:text="@string/detail_img3" />
+
+<!--            <View-->
+<!--                android:layout_width="0px"-->
+<!--                android:layout_height="1px"-->
+<!--                android:layout_weight="1" />-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container4"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:orientation="horizontal"
+            android:padding="4sp">
+
+            <!--            <View-->
+            <!--                android:layout_height="1px"-->
+            <!--                android:layout_width="1px"-->
+            <!--                android:layout_marginStart="15dp"-->
+            <!--                />-->
+
+            <TextView
+                android:id="@+id/text7"
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="8sp"
+                android:layout_marginStart="15dp"
+                android:paddingRight="8sp"
+                android:text="@string/thursday" />
+
+            <!--            <View-->
+            <!--                android:layout_width="0px"-->
+            <!--                android:layout_height="0px"-->
+            <!--                android:layout_marginStart="35dp" />-->
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="65dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/sun" />
+
+            <!--            <View-->
+            <!--                android:layout_width="1px"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginStart="55dp"-->
+            <!--                android:background="@drawable/divider" />-->
+
+            <TextView
+                android:id="@+id/item8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="8sp"
+                android:layout_marginStart="55dp"
+                android:paddingRight="8sp"
+                android:text="@string/detail_img2" />
+
+            <!--            <View-->
+            <!--                android:layout_width="0px"-->
+            <!--                android:layout_height="1px"-->
+            <!--                android:layout_weight="1" />-->
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/container5"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:orientation="horizontal"
+            android:padding="4sp">
+
+            <!--            <View-->
+            <!--                android:layout_height="1px"-->
+            <!--                android:layout_width="1px"-->
+            <!--                android:layout_marginStart="15dp"-->
+            <!--                />-->
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="8sp"
+                android:layout_marginStart="15dp"
+                android:paddingRight="8sp"
+                android:text="@string/friday" />
+
+            <!--            <View-->
+            <!--                android:layout_width="0px"-->
+            <!--                android:layout_height="0px"-->
+            <!--                android:layout_marginStart="35dp" />-->
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="85dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/sun" />
+
+            <!--            <View-->
+            <!--                android:layout_width="1px"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginStart="55dp"-->
+            <!--                android:background="@drawable/divider" />-->
+
+            <TextView
+                android:id="@+id/item10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="8sp"
+                android:layout_marginStart="55dp"
+                android:paddingRight="8sp"
+                android:text="@string/detail_img2" />
+
+            <!--            <View-->
+            <!--                android:layout_width="0px"-->
+            <!--                android:layout_height="1px"-->
+            <!--                android:layout_weight="1" />-->
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/container6"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:orientation="horizontal"
+            android:padding="4sp">
+
+            <!--            <View-->
+            <!--                android:layout_height="1px"-->
+            <!--                android:layout_width="1px"-->
+            <!--                android:layout_marginStart="15dp"-->
+            <!--                />-->
+
+            <TextView
+                android:id="@+id/text11"
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="8sp"
+                android:layout_marginStart="15dp"
+                android:paddingRight="8sp"
+                android:text="@string/saturday" />
+
+            <!--            <View-->
+            <!--                android:layout_width="0px"-->
+            <!--                android:layout_height="0px"-->
+            <!--                android:layout_marginStart="35dp" />-->
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="68dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/sun" />
+
+            <!--            <View-->
+            <!--                android:layout_width="1px"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginStart="55dp"-->
+            <!--                android:background="@drawable/divider" />-->
+
+            <TextView
+                android:id="@+id/item12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="8sp"
+                android:layout_marginStart="55dp"
+                android:paddingRight="8sp"
+                android:text="@string/detail_img2" />
+
+            <!--            <View-->
+            <!--                android:layout_width="0px"-->
+            <!--                android:layout_height="1px"-->
+            <!--                android:layout_weight="1" />-->
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/container7"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:orientation="horizontal"
+            android:padding="4sp">
+
+            <!--            <View-->
+            <!--                android:layout_height="1px"-->
+            <!--                android:layout_width="1px"-->
+            <!--                android:layout_marginStart="15dp"-->
+            <!--                />-->
+
+            <TextView
+                android:id="@+id/text13"
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="8sp"
+                android:layout_marginStart="15dp"
+                android:paddingRight="8sp"
+                android:text="@string/sunday" />
+
+            <!--            <View-->
+            <!--                android:layout_width="0px"-->
+            <!--                android:layout_height="0px"-->
+            <!--                android:layout_marginStart="35dp" />-->
+
+            <ImageView
+                android:id="@+id/image7"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="78dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/sun" />
+
+            <!--            <View-->
+            <!--                android:layout_width="1px"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginStart="55dp"-->
+            <!--                android:background="@drawable/divider" />-->
+
+            <TextView
+                android:id="@+id/item14"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="8sp"
+                android:layout_marginStart="55dp"
+                android:paddingRight="8sp"
+                android:text="@string/detail_img2" />
+
+            <!--            <View-->
+            <!--                android:layout_width="0px"-->
+            <!--                android:layout_height="1px"-->
+            <!--                android:layout_weight="1" />-->
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

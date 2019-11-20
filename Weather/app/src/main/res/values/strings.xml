@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Weather</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="thursday">Thursday</string>
+    <string name="detail_img1">Partly Cloud \24C-30C</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="detail_img2">Showers \24C-30C</string>
+    <string name="detail_img3">Showers \24C-30C</string>
+</resources>
