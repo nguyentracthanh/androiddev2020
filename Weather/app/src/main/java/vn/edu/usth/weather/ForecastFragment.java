@@ -33,6 +33,15 @@ public class ForecastFragment extends Fragment {
 //        textview.setGravity(View.TEXT_ALIGNMENT_CENTER);
 //        return textview;
     }
+//    public static ForecastFragment newInstance(int arg) {
+//
+//        Bundle args = new Bundle();
+//        args.putInt("ARG", arg);
+//
+//        ForecastFragment fragment = new ForecastFragment();
+//        fragment.setArguments(args);
+//        return fragment;
+//    }
 }
 
 
