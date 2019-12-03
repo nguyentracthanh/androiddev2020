@@ -17,7 +17,7 @@
         <LinearLayout
             android:id="@+id/container"
             android:layout_width="match_parent"
-            android:layout_height="0"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:orientation="horizontal"
             android:padding="4sp">
@@ -63,7 +63,7 @@
         <LinearLayout
             android:id="@+id/container2"
             android:layout_width="match_parent"
-            android:layout_height="0"
+            android:layout_height="match_parent"
             android:orientation="horizontal"
             android:padding="4sp"
             android:layout_weight="1">
@@ -113,7 +113,7 @@
         <LinearLayout
             android:id="@+id/container3"
             android:layout_width="match_parent"
-            android:layout_height="0"
+            android:layout_height="match_parent"
             android:orientation="horizontal"
             android:layout_weight="1"
             android:padding="4sp">
@@ -159,7 +159,7 @@
         <LinearLayout
             android:id="@+id/container4"
             android:layout_width="match_parent"
-            android:layout_height="0"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:orientation="horizontal"
             android:padding="4sp">
@@ -207,7 +207,7 @@
         <LinearLayout
             android:id="@+id/container5"
             android:layout_width="match_parent"
-            android:layout_height="0"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:orientation="horizontal"
             android:padding="4sp">
@@ -250,7 +250,7 @@
         <LinearLayout
             android:id="@+id/container6"
             android:layout_width="match_parent"
-            android:layout_height="0"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:orientation="horizontal"
             android:padding="4sp">
@@ -296,7 +296,7 @@
         <LinearLayout
             android:id="@+id/container7"
             android:layout_width="match_parent"
-            android:layout_height="0"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:orientation="horizontal"
             android:padding="4sp">
