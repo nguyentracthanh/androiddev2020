@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Thời tiế</string>
+    <string name="detail_img2">Mưa rào \n 24C-30C</string>
+    <string name="detail_img3">Mưa rào \n 24C-30C</string>
+    <string name="friday">Thứ 6</string>
+    <string name="monday">Thứ 2</string>
+    <string name="saturday">Thứ 7</string>
+    <string name="sunday">Chủ Nhật</string>
+    <string name="thursday">Thứ 5</string>
+    <string name="tuesday">Thứ 3</string>
+    <string name="wednesday">Thứ 4</string>
+    <string name="detail_img1">Nhiều mây \n 24C-30C</string>
+</resources>
