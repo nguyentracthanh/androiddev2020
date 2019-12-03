@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 
 import android.util.Log;
@@ -27,12 +28,15 @@ public class WeatherActivity extends AppCompatActivity {
         pager.setAdapter(adapter);
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
         tabLayout.setupWithViewPager(pager);
+        MediaPlayer mediaPlayer= MediaPlayer.create(WeatherActivity.this,R.raw.mua_he_cua_em_vu);
+        mediaPlayer.start();
+    }
 //        ForecastFragment FirstFragment=new ForecastFragment();
 //        getSupportFragmentManager().beginTransaction().add(R.id.container, FirstFragment).commit();
 //        ForecastFragment SecondFragment=new ForecastFragment();
 //        getSupportFragmentManager().beginTransaction().add(R.id.container, SecondFragment).commit();
 
-   }
+
 
     @Override
     protected void onStart() {
