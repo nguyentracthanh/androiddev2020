@@ -1,7 +1,5 @@
 package vn.edu.usth.weather;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -25,7 +23,7 @@ public class WeatherAndForecastFragment extends Fragment {
         ForecastFragment weatherFragment = new ForecastFragment();
         weatherFragment.setArguments(this.getArguments());
 
-        ForecastFragment2 forecastFragment = new ForecastFragment2();
+        Frame_fragment forecastFragment = new Frame_fragment();
         forecastFragment.setArguments(this.getArguments());
 
         fragmentTransaction.replace(R.id.fragment_2, weatherFragment);

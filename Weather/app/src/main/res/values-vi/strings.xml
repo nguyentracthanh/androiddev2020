@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Thời tiế</string>
+    <string name="app_name">Thời tiết</string>
     <string name="detail_img2">Mưa rào \n 24C-30C</string>
     <string name="detail_img3">Mưa rào \n 24C-30C</string>
     <string name="friday">Thứ 6</string>
