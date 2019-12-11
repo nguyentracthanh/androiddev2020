@@ -7,4 +7,9 @@
         android:icon="@drawable/ic_refresh_24dp"
         android:title="refresh"
         app:showAsAction="always"/>
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="setting"
+        app:showAsAction="always"/>
 </menu>
